@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: s18tjs012-nodejs
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: s18tjs012-nodejs 
+  name: s18tjs012-nodejs
+spec:
+  ports:
+  - port: 3001 
+    targetPort: 3001 
+  selector:
+    app.kubernetes.io/instance: s18tjs012-nodejs 

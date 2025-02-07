@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: s18tjs012-nodejs-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/s18tjs012-nodejs
